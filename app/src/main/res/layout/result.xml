@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:weightSum="1"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:id="@+id/fist_result"
+        android:layout_width="match_parent"
+        android:text="TextView1"
+        android:textSize="36sp"
+        android:textAlignment="center"
+        android:paddingTop="30dp" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/first_score"
+        android:isIndicator="true"
+        style="@android:style/Widget.RatingBar"
+        android:rating="5" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/second_result"
+        android:text="TextView2"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:paddingTop="30dp" />
+
+    <RatingBar
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/second_score"
+        android:isIndicator="true"
+        style="@android:style/Widget.RatingBar"
+        android:rating="6" />
+
+    <TextView
+        android:text="TextView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/third_result"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:paddingTop="30dp" />
+
+    <RatingBar
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/third_score"
+        android:isIndicator="true"
+        style="@android:style/Widget.RatingBar"
+        android:rating="5" />
+
+</LinearLayout>

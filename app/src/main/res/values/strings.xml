@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">选择终结者</string>
+
+    <!-- Strings related to login -->
+    <string name="first_string">第一个选项</string>
+    <string name="second_string">第二个选项</string>
+    <string name="third_string">第三个选项</string>
+    <string name="click_Button">让我来终结，也可以摇摇哦！</string>
+    <string name="error_field_required">这里要填写哦！</string>
+</resources>
